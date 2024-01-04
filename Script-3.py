@@ -5,11 +5,11 @@ def export_report_to_txt(filename):
 
     try:
         with mysql.connector.connect(
-            host="bazepodataka.ba",
-            user="student2312",
+            host="",
+            user="",
             password="",
-            database="student2312",
-            port=7306) as connection:
+            database="",
+            port=) as connection:
 
             cursor = connection.cursor()
             cursor.execute(query)
